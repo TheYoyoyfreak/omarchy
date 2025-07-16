@@ -8,3 +8,4 @@ if ! command -v nvim &>/dev/null; then
   rm -rf ~/.config/nvim/.git
   echo "vim.opt.relativenumber = false" >>~/.config/nvim/lua/config/options.lua
 fi
+# delete and replace with own config later
